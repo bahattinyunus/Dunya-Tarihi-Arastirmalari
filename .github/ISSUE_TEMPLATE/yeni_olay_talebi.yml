@@ -1,0 +1,36 @@
+name: Yeni Tarihi Olay İnceleme Talebi
+description: Belirli bir tarihi olay veya kırılma noktasının arşive eklenmesini talep edin.
+title: "[İnceleme Talebi]: <Kısa Olay Adı - Örn: Endüstri Devrimi>"
+labels: ["araştırma talebi", "yeni inceleme"]
+body:
+  - type: textarea
+    id: event-description
+    attributes:
+      label: Olayın veya Dönemin Özeti
+      description: İncelemesini talep ettiğiniz tarihi olay veya dönemi kısaca açıklayın.
+      placeholder: "Örn: Rönesans döneminde matbaanın bilgi ekosistemine etkisi incelenmeli..."
+    validations:
+      required: true
+  - type: dropdown
+    id: appropriate-folder
+    attributes:
+      label: İlgili Kronolojik Dönem (Tahmini)
+      options:
+        - 01_Tarih_Oncesi_ve_Ilk_Sistemler
+        - 02_Antik_Cag_ve_İmparatorluklar_Mimarisi
+        - 03_Orta_Cag_Din_ve_Feodalite
+        - 04_Kuresel_Kesisimler_ve_Aydinlanma
+        - 05_Sanayi_Devrimi_ve_Modern_Ulus_Devletler
+        - 06_20inci_Yuzyil_Kuresel_Savaslar_ve_Ideolojiler
+        - 07_Bilgi_Cagi_ve_Teknolojik_Evrim
+        - 00_Tematik_ve_Sosyolojik_Analizler
+    validations:
+      required: true
+  - type: textarea
+    id: key-aspects
+    attributes:
+      label: Vurgulanması Gereken Sistemik Etkiler
+      description: Bu inceleme yapılırken özellikle üzerine düşülmesi gereken sosyolojik veya teknolojik açılar neler olmalı?
+      placeholder: "Örn: Teknolojik icatların ekonomik sınıfları nasıl değiştirdiği üzerinde durulmalı."
+    validations:
+      required: false
