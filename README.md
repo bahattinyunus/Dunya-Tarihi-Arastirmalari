@@ -1,5 +1,6 @@
-# Dunya-Tarihi-Arastirmalari
 # 🌍 Macro-History-Archive: Küresel Tarih ve Sistem Analizleri
+
+![Macro-History-Archive Banner](_assets/banner.png)
 
 > "Tarih, sadece geçmişin bir kaydı değil; insanlığın sosyolojik, ekonomik ve teknolojik evriminin büyük bir veri setidir."
 
