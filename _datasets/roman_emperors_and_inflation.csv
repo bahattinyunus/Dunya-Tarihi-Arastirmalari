@@ -1,0 +1,30 @@
+id,emperor,birth_year,accession_year,death_year,reign_length_years,cause_of_death,silver_content_percent
+1,Augustus,-63,-27,14,41,Natural,100
+2,Tiberius,-42,14,37,23,Natural,100
+3,Caligula,12,37,41,4,Assassination,100
+4,Claudius,-10,41,54,13,Poisoned,100
+5,Nero,37,54,68,14,Suicide,90
+6,Galba,-3,68,69,1,Assassination,90
+7,Vespasian,9,69,79,10,Natural,90
+8,Titus,39,79,81,2,Natural,90
+9,Domitian,51,81,96,15,Assassination,90
+10,Nerva,30,96,98,2,Natural,90
+11,Trajan,53,98,117,19,Natural,85
+12,Hadrian,76,117,138,21,Natural,80
+13,Antoninus Pius,86,138,161,23,Natural,75
+14,Marcus Aurelius,121,161,180,19,Natural/Disease,75
+15,Commodus,161,180,192,12,Assassination,67
+16,Septimius Severus,145,193,211,18,Natural/Disease,50
+17,Caracalla,188,211,217,6,Assassination,50
+18,Elagabalus,203,218,222,4,Assassination,40
+19,Alexander Severus,208,222,235,13,Assassination,40
+20,Maximinus Thrax,173,235,238,3,Assassination,30
+21,Gordian III,225,238,244,6,Assassination,28
+22,Philip the Arab,204,244,249,5,Killed in Battle,25
+23,Decius,201,249,251,2,Killed in Battle,20
+24,Valerian,200,253,260,7,Captured/Execution,5
+25,Gallienus,218,253,268,15,Assassination,2
+26,Claudius Gothicus,214,268,270,2,Disease (Plague),2
+27,Aurelian,214,270,275,5,Assassination,4
+28,Probus,232,276,282,6,Assassination,4
+29,Diocletian,244,284,305,21,Natural (Abdicated),5

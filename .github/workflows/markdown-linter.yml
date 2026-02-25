@@ -1,0 +1,21 @@
+name: Markdown Linter (Kalite Kontrolü)
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Run Markdown Lint
+        uses: DavidAnson/markdownlint-cli2-action@v12
+        with:
+          globs: "**/*.md"
+          
+      # Opsiyonel: Kırık link kontrolü eklenebilir. Şu an sadece standart markdown yazımı denetleniyor.

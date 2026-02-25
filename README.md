@@ -4,6 +4,8 @@
 
 > *"Tarih, sadece geçmişin bir kaydı değil; insanlığın sosyolojik, ekonomik ve teknolojik evriminin büyük bir veri setidir."*
 
+[🇬🇧 Read in English](README_EN.md)
+
 ## 🌟 Neden Bu Proje? (Manifesto)
 
 Günümüzde tarih öğretimi genellikle kralların isimleri, savaş tarihleri ve izole edilmiş bölgesel olaylar üzerinden yapılmaktadır. Ancak insanlık tarihi, birbirinden bağımsız tesadüflerin bir araya gelmesiyle değil; tıpkı bir organizma veya bir bilgisayar ağı gibi, birbirine derinden bağlı **kompleks sistemlerin** (ekonomi, coğrafya, teknoloji, psikoloji) etkileşimiyle şekillenmiştir.
